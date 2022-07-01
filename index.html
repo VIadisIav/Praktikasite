@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>lectrisa.ru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>
+    #arrowTop {
+      height: 9px;
+      width: 14px;
+      color: green;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      cursor: pointer;
+    }
+
+    #arrowTop::before {
+      content: '▲';
+    }
+    
+    #train {
+    position: relative;
+    cursor: pointer;
+  }</style>
+    
+</head>
+<body>
+    
+    <div class="page-header">
+        <div class="menu">
+            <a class="header-logo" href="#">
+              <img src="img/imgLogo.png" alt="lectrisa.ru">
+            </a>
+            <div class="nearlogo1">lectrisa.ru</div>
+            <div class="nearlogo2">Консультант-репетитор по письменным работам</div>
+            <div class="email">
+              <img src="img/iconfeather-mail.svg">
+            </div>
+            <div class="textmail">
+              lectrisa@mail.ru
+            </div>
+           
+            <a class="viber" href="#"><img src="img/icon001-viber.svg"></a>
+            <a class="whatsapp" href="#"><img src="img/icon002-whatsapp.svg"></a>
+            <a class="telegram" href="#"><img src="img/icon003-telegram.svg"></a>
+            <a class="vk" href="#"><img src="img/icon004-Vk.svg"></a>
+            <div class="phone">
+              +7 (987) 524-87-35
+            </div>
+        </div>
+        <div class="polosa"></div>
+        <div class="icon">
+          <div class="time">
+            <img src="img/icon001-passage-of-time 1.svg">Горят сроки?<br> Нужен результат за 1-2 дня?
+          </div>
+          <div class="sad"> 
+            <img src="img\iconemojione-monotone_downcast-face-with-sweat.svg">Подвел исполнитель?<br>Не хотите больше рисковать?
+          </div>
+          <div class="brain">
+            <img src="\img\icon003-brain 2.svg">Сложная тема? <br>Нужна качественная работа?
+          </div>
+        </div>
+        <div class="info">
+        <div class="zag">Помощь студентам в обучении</div>
+        <div class="podzag">от эксперта с 15-летним опытом!</div>
+        <button class="button1" onClick='location.href="#"'>Сделать заказ</button>
+        <div class="sale">
+          <img src="\img\percentage 1.svg"> <p class="link">Пройди короткий тест и получи <a href="#" style="color:red">скидку</a></p> 
+        </div>
+      </div>
+    </div>
+    <div class="screen2">
+        <div class="group"><img src="img\iconLike.svg">
+          <div class="screen2zag">Гарантия качества</div>
+          <div class="screen2text">Получите нужный результат или я верну вам деньги в размере 150%, в соответствии 
+            с ФЗ «О защите прав потребителей»</div>
+        </div>
+        <div class="group"><img src="img\iconFL.svg">
+          <div class="screen2zag">Безопасность</div>
+          <div class="screen2text">Возможна оплата через гаранта,<br>сервис безопасной сделки на fl.ru</div>
+        </div>
+        <div class="group"><img src="img\iconVesi.svg">
+          <div class="screen2zag">Гибкость</div>
+          <div class="screen2text">Работаю без посредников, поэтому могу подстроится под бюджет заказчика (в разумных пределах)</div>
+        </div>
+        <div class="group"><img src="img\iconTime.svg">
+          <div class="screen2zag">Пунктуальность</div>
+          <div class="screen2text">Получите результат точно в срок или раньше, иначе 10% от цены за каждый день просрочки.
+          </div>
+        </div>    
+    </div>
+    <div class="screen3">
+      <h2>Узнайте стоимость работы</h2>
+      <div class="box"><form>
+        <label for="name">Как вас зовут?</label>
+        <label for="phone">Как с вами связаться?</label><br>
+        <input type="text" id="name" name="name" placeholder="Имя">
+        
+        <input type="tel" id="phone" name="phone" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" 
+        placeholder="+7 (___) ___ - __ - __">
+        <input type="text" id="email" name="email" placeholder="e-mail"><br>
+        <label for="name">Заполните данные по заданию</label><br>
+        <select name="work" required="required" width="230px">
+          <option selected disabled>Выберите тип работы</option>
+          <option value="Курсовая">Курсовая</option>
+          <option value="Дипломная">Дипломная</option>
+          <option value="Магистерская">Магистерская</option>
+          <option value="Бакалаврская">Бакалаврская</option>
+          <option value="Реферат">Реферат</option>
+          <option value="ВКР">ВКР</option>
+          <option value="Статья">Статья</option>
+          <option value="Презентация">Презентация</option>
+          <option value="Чертежи">Чертежи</option>
+          <option value="Уникальность текста">Уникальность текста</option>
+          <option value="Другое">Другое</option>
+        </select>
+        <input type="text" id="tema" name="tema" placeholder="Введите тему работы"><br>
+        <input type="text" id="predmet" name="predmet" placeholder="Введите предмет">
+        <input type="text" onfocus="(this.type = 'date')" id="date" name="date" placeholder="Срок сдачи">
+        <input type="text" id="kolvo" name="kolvo" placeholder="Кол-во страниц">
+        <input type="text" id="antip" name="antip" placeholder="Антиплагиат %"><br>
+        <label for="name">Пояснение к заказу</label><br>
+        <input type="text" id="poyasnenie" name="poyasnenie" placeholder="Ваше сообщение">
+      </form>
+    </div>
+    </div>
+
+    <div id="arrowTop" hidden></div>
+    <img id="train" src="img/imgLogo.png">
+
+
+  <script>
+    train.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        train.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+  
+    <script>
+  
+      arrowTop.onclick = function() {
+        window.scrollTo(pageXOffset, 0);
+        // после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
+      };
+  
+      window.addEventListener('scroll', function() {
+        arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+      });
+    </script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=o8pio1cNCPwpLRJfPcnAL9RvGcckNsMe&amp;amp;width=100%&amp;amp;height=350&amp;amp;lang=ru_RU&amp;amp;sourceType=constructor&amp;amp;scroll=true"></script>
+    
+  </body>
+</html>

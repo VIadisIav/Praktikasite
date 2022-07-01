@@ -1,0 +1,363 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Medium.woff') format('woff');
+	font-style: normal;
+}
+
+:root {
+	--font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family:'Lato',sans-serif;
+    font-style: normal;
+    color: #515151;
+    background-color: white;
+    font-weight: 400;
+  }
+
+  .menu{
+    position: absolute;
+    width: 100%;
+    height: 79px;
+    left: 0px;
+    top:22px;
+  }
+  
+  .page-header {
+    position: absolute;
+    width: 1920px;
+    height: 721px;
+    margin:0;
+    padding:0;
+    top:0px;
+    left:0px;
+    background-image: url("../img/BgДевушка на 1 экране.png");
+  }
+  .polosa{position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    top: 100px;background: #D9F2F5;
+  }
+  .header-logo {
+    position: absolute;
+    width: 48px;
+    height: 43px;
+    left: 307px;
+    top: 12%;
+  }
+  
+  .email{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 77.1%;
+    top: 8px;
+  }
+
+  .textmail{
+    position: absolute;
+    width: 111px;
+    height: 27px;
+    left: 78.1%;
+    top: 2px;
+    font-size: 16px;
+    line-height: 167.7%;
+    /* identical to box height, or 27px */
+    
+    
+    color: #2871A3;
+  }
+  .phone{
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 73%;
+    top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.7%;
+    /* or 40px */
+    color: #246BA1;
+  }
+
+  .viber{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 65.8%;
+    top: 28px;
+  }
+
+  .whatsapp{
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    left: 67.6%;
+    top: 28px;
+  }
+
+  .telegram{
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    left: 69.3%;
+    top: 28px;
+  }
+
+  .vk{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 71%;
+    top: 28px;
+
+  }
+
+  .nearlogo1{
+    position: absolute;
+    width: 97px;
+    height: 27px;
+    left: 371px;
+    top: 5px;
+    font-size: 16px;
+    line-height: 167.7%;
+    text-transform: uppercase;
+    color: #2871A3;
+  }
+
+  .nearlogo2{
+    position: absolute;
+    width: 340px;
+    height: 23px;
+    left: 370px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 167.7%;
+    color: #363434;
+  }
+  
+.icon{
+  display:flex;
+  flex-direction: row;
+  padding-top:141px;
+ padding-left:307px;
+ width: 873px;
+height: 34px;
+font-size: 14px;
+line-height: 120%;
+/* or 17px */
+
+
+color: #515151;
+
+
+}
+
+.time{
+  display:grid;
+  grid-column: 1/2;
+  grid-template-columns:28px 186px;
+  column-gap:15px;
+  margin-right:92px;
+}
+
+.sad{
+  display: grid;
+  grid-column: 1/2;
+  grid-template-columns:28px 194px;
+  column-gap:15px;
+  margin-right:85px;
+  
+}
+
+.brain{
+  display: grid;
+  grid-column: 1/2;
+  grid-template-columns:28px 189px;
+  column-gap:15px;
+}
+
+.info{
+  width: 730px;
+  height: 336px;
+  margin-left: 307px;
+  margin-top: 60px;
+}
+.zag{
+ 
+  font-weight: 700;
+font-size: 50px;
+line-height: 167.7%;
+/* identical to box height, or 84px */
+
+color: #246BA1;
+}
+
+.podzag{
+  font-weight: 700;
+font-size: 24px;
+line-height: 167.7%;
+color: #3C93B1;
+margin-top: 6px;
+}
+
+
+
+button{
+  background: linear-gradient(178.2deg, #1FD8EE -46.57%, #1FC3EE 158.2%);
+  color: white;
+  text-align: center;
+  border:none;
+  border-radius: 5px;
+  
+}
+.button1{
+  
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.7%;
+  width: 298px;
+  height: 67px;
+  margin-top: 46px; 
+  
+  
+}
+
+.sale{
+    margin-top: 60px;
+    display: grid;
+    grid-column: 1/2;
+    grid-template-columns:28px 172px;
+    column-gap:15px;
+    font-size: 16px;
+    line-height: 120%;
+   
+}
+
+.link{
+  margin: 0;
+
+}
+
+.screen2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 462px;
+margin-top: 821px;
+   width: 1200px;
+  height: 307px;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+  
+ 
+  
+  }
+  
+  .screen2zag{
+    font-weight: 700;
+  font-size: 24px;
+  line-height: 167.7%;
+  /* or 40px */
+  color: #13BBCF;
+  margin-bottom:3px;
+  }
+
+  .screen2text{
+  
+    width: 365px;
+    height: 81px;
+/* or 27px */
+font-size: 18px;
+line-height: 150%;
+color: #363434;
+margin-top:-50px;
+  margin-left:124px;
+
+  }
+
+  .group{
+    display:grid;
+    grid-column: 1/2;
+    grid-template-columns:94px 370px;
+    column-gap:30px;
+    margin-right:84px;
+    width: 488px;
+    height: 124px;
+    margin-bottom:59px;
+  }
+
+  h2{
+    font-size: 40px;
+    line-height: 151.7%;
+    /* identical to box height, or 61px */
+    color: #000000;
+   text-align:center;
+  }
+
+  .screen3{
+    width: 838px;
+    height: 729px;
+    margin-left: 542px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  label{
+    
+/* or 150% */
+color: #000000;
+  }
+
+  input{
+    border: 1px solid #A8A8A8;
+    border-radius: 4px;
+    width: 230px;
+    height: 40px;
+    padding-left: 16px;
+    box-sizing: border-box;
+  }
+
+  input::placeholder{
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #C4C4C4;
+  }
+
+  select{
+    border: 1px solid #A8A8A8;
+    border-radius: 4px;
+    width: 230px;
+    height: 40px;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363434;
+  }
+
+  .box{
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 4px; 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  
+
+
+  
+  
+  
+
+
+
+
+
+
+ 
+  
